@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Event Ease Application";
+}
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">Event Ease Application</h1>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Add Venue</h5>
+                    <p class="card-text">Create a new venue for events</p>
+
+                    <a asp-action="Create" asp-controller="Venue" class="btn btn-dark">Go to Venue Form</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Add Event</h5>
+                    <p class="card-text">Create a new events</p>
+
+                    <a asp-action="Create" asp-controller="Event" class="btn btn-primary">Go to Event Form</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Add Booking</h5>
+                    <p class="card-text">Book an existing event</p>
+
+                    <a asp-action="Create" asp-controller="Booking" class="btn btn-secondary">Go to Booking Form</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
